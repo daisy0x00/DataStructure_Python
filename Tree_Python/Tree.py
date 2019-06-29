@@ -37,10 +37,10 @@ class Tree():
                 # 弹出队列的第一个元素
                 cur = queue.pop(0)
                 if cur.left == None:
-                    cur.left == node
+                    cur.left = node
                     return
                 elif cur.right == None:
-                    cur.right == node
+                    cur.right = node
                     return
                 else:
                     # 如果左右子树都不为空，往判断列表加入子树，循环进行子树的判断
